@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Login | Sign Up</title>
+</head>
+
+<body>
+    <div id="bg-overlay">
+        <div class="light" id="light1"></div>
+        <div class="light" id="light2"></div>
+        <div class="light" id="light3"></div>
+    </div>
+    <div class="container">
+        <div class="welcome">
+            <h1>Welcome to Facebook Clone</h1>
+        </div>
+        <input type="checkbox" id="slider" style="display:none;">
+        <div class="switch-container">
+            <p>Log In</p>
+            <div class="switch">
+                <label for="slider">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <p>Sign Up</p>
+        </div>
+        <div class="card">
+            <div class="card-inner" id="cardInner">
+                <div class="card-front">
+                    <div class="login">
+                        <h2>Login</h2>
+                        <form id="loginForm">
+                            <input type="text" placeholder="Email or Phone" id="email">
+                            <input type="password" placeholder="Password" id="password">
+                            <button type="submit" id="loginButton">Log In</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="card-back">
+                    <div class="signup">
+                        <h2>Sign Up</h2>
+                        <form id="signupForm">
+                            <input type="text" placeholder="Name" id="name">
+                            <input type="text" placeholder="Email or Phone" id="email">
+                            <input type="password" placeholder="Password" id="password">
+                            <button type="submit" id="signupButton">Sign Up</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
