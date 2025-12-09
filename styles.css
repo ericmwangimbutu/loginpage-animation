@@ -216,6 +216,7 @@ input#slider:checked~.card .card-inner {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+
 }
 
 #loginButton:hover,
