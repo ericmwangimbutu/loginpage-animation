@@ -57,6 +57,18 @@ body {
     padding: 20px;
 }
 
+.welcome {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 24px;
+    font-weight: bold;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .content {
     background-color: #fff;
     padding: 20px;
@@ -91,6 +103,12 @@ input[type="submit"]:hover {
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .switch-container p {
@@ -166,10 +184,13 @@ input#slider:checked~.switch-container .slider:before {
 .card-front,
 .card-back {
     grid-area: stack;
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     backface-visibility: hidden;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
 }
 
 .card-front {
